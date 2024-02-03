@@ -1,6 +1,5 @@
-
-# Bienvenidos a los 100 ![Portada 100 Dias](https://github.com/lordzzz777/los_100_Di-as_de_Swift_con_Paul_Hudson/assets/114311106/ad261bde-c559-4b1d-b48c-c6e959066bd3)
-días de Swift con Paul Hudson! 👋
+![Portada 100 Dias](https://github.com/lordzzz777/los_100_Di-as_de_Swift_con_Paul_Hudson/assets/114311106/ad261bde-c559-4b1d-b48c-c6e959066bd3)
+# Bienvenidos a los 100 días de Swift con Paul Hudson! 👋
 
 ## Cómo Participar
 
