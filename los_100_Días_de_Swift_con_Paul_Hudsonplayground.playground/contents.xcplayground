@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Presentacion'/>
+        <page name='Dia1_Primeros_Pasos'/>
+        <page name='Dia2_Tipos_de_datos_complejos'/>
+    </pages>
+</playground>
