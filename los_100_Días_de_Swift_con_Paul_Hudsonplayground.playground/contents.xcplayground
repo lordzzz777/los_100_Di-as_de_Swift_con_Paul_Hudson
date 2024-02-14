@@ -5,5 +5,6 @@
         <page name='Dia1_Primeros_Pasos'/>
         <page name='Dia2_Tipos_de_datos_complejos'/>
         <page name='Dia3_Operadores_y_condiciones'/>
+        <page name='Dia4_Bucles'/>
     </pages>
 </playground>
