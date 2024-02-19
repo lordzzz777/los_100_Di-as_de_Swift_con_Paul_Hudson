@@ -5,6 +5,15 @@ import Foundation
 // ----- Creación de cierres básicos -----
 
 
+// Prepárate, porque hoy estamos cubriendo lo primero en Swift que a muchas personas les cuesta
+// entender. Por favor, ten en cuenta la ley de Flip Wilson: "no puedes esperar ganar el premio
+// mayor si no pones unas cuantas monedas de cinco centavos en la máquina".
+
+// Hoy solo tienes cinco vídeos de un minuto para ver, solo para asegurarte de que tienes tiempo
+// para ver vídeos dos veces si es necesario. Una vez que hayas completado cada vídeo, puedes
+// leer la sección adicional opcional, y hay una breve prueba para asegurarte de que has entendido
+// lo que se enseñó.
+
 
 // Swift nos permite usar funciones como cualquier otro tipo, como cadenas y enteros.
 // Esto significa que puede crear una función y asignarla a una variable, llamar a
