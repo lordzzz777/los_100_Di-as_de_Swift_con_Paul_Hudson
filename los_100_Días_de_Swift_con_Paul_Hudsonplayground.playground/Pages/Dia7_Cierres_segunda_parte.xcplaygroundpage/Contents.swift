@@ -628,11 +628,13 @@ return {
 // Ahora quiero que muevas esa línea var previousNumber = 0 para
 // que llegue antes del regreso, así:
 
+/*
 var previousNumber = 0
 
 return {
     var newNumber: Int
-    
+*/
+
 // Si ejecutas el código ahora, verás que funciona tal y como esperábamos: obtenemos un
 // nuevo valor aleatorio cada vez, pero no obtendremos ninguna repetición.
     
