@@ -83,15 +83,21 @@ struct User {
 // Piénsalo: si tienes varias funciones que funcionan con la información del usuario,
 // ¿prefieres escribir esto?
 
-func authenticate(_ user: User) { ... }
-func showProfile(for user: User) { ... }
-func signOut(_ user: User) { ... }
+func authenticate(_ user: User) { //...
+}
+func showProfile(for user: User) { //...
+}
+func signOut(_ user: User) { //...
+}
 
 // O esto:
 
-func authenticate(_ user: (name: String, age: Int, city: String)) { ... }
-func showProfile(for user: (name: String, age: Int, city: String)) { ... }
-func signOut(_ user: (name: String, age: Int, city: String)) { ... }
+func authenticate(_ user: (name: String, age: Int, city: String)) { //...
+}
+func showProfile(for user: (name: String, age: Int, city: String)) { //...
+}
+func signOut(_ user: (name: String, age: Int, city: String)) { //...
+}
 
 // Piensa en lo difícil que sería agregar una nueva propiedad a tu estructura de usuario 
 // (muy fácil de hecho), en comparación con lo difícil que sería agregar otro valor a tu tupla en
