@@ -492,5 +492,5 @@ number = 6
 // Las clases no hacen cumplir las constantes con tanta fuerza como las estructuras: si una
 // propiedad se declara como una variable, se puede cambiar independientemente de cómo se creó la instancia de clase.
 
-// ---- Enlace de ejerciciosResumen de las clases -----
+// ---- Enlace de ejercicios Resumen de las clases -----
 // https://www.hackingwithswift.com/review/classes-summary
