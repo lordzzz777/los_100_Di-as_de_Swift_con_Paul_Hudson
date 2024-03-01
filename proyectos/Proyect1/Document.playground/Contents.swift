@@ -1064,3 +1064,208 @@ navigationItem.largeTitleDisplayMode = .never
 
 
 
+// ----- Proyecto 1, tercera parte -----
+
+// Ahora que nuestra aplicación está completa, es hora de hacer un resumen
+// rápido de lo que aprendiste, una breve prueba para asegurarte de que has
+// entendido lo que se enseñó, luego tus primeros desafíos:
+// ejercicios diseñados para que escribas tu propio código lo más rápido posible.
+
+// No doy las respuestas a estos desafíos. Esto es intencional: quiero que lo
+// averigües por ti mismo en lugar de solo mirar el trabajo de otra persona.
+// Probar las cosas por ti mismo, cometer errores y encontrar soluciones es
+// clave para aprender, como dijo una vez Maya Angelou,
+// "nada funcionará a menos que lo hagas".
+
+// Hoy deberías trabajar en el capítulo de recapitulación del proyecto 1,
+// completar su revisión y luego trabajar en los tres desafíos.
+
+
+
+// ------ Terminar ------
+
+// Este ha sido un proyecto muy simple en términos de lo que puede hacer,
+// pero también has aprendido una gran cantidad sobre Swift, Xcode y storyboards.
+// Sé que no es fácil, pero confía en mí: has llegado hasta aquí, así que has
+// pasado por la parte más difícil.
+
+// Para darte una idea de lo lejos que has llegado, estas son solo algunas de las
+// cosas que hemos cubierto: vistas de tablas y vistas de imágenes, paquetes de
+// aplicaciones, FileManager, typecasting, controladores de vista, guiones gráficos,
+// puntos de venta, diseño automático, UIImage y más.
+
+// Sí, esa es una gran cantidad, y para ser brutalmente honesto, lo más probable
+// es que te olvides de la mitad. Pero eso está bien, porque todos aprendemos a
+// través de la repetición, y si continúas siguiendo el resto de esta serie,
+// usarás todos estos y más una y otra vez hasta que los conozcas
+// como la palga de tu mano.
+
+
+// ******** Review what you learned ********
+
+// Cualquiera puede pasar por un tutorial, pero se necesita trabajo real para
+// recordar lo que se enseñó. Es mi trabajo asegurarme de que tomes tanto de
+// estos tutoriales como sea posible, así que he preparado una breve revisión
+// para ayudarte a comprobar tu aprendizaje.
+
+
+// ******** Desafío ********
+
+// Esto tiene los comienzos de una aplicación útil, pero si realmente quieres
+// que tus nuevos conocimientos se hundan, necesitas comenzar a escribir un
+// nuevo código tú mismo, sin seguir un tutorial o tener una respuesta,
+// puedes buscar en línea.
+
+// Por lo tanto, cada vez que completes un proyecto, te desafiaré a modificarlo
+// de alguna manera. Sí, esto llevará algo de trabajo, pero no hay aprendizaje
+// sin lucha: todos los desafíos están completamente a tu alcance en función de
+// lo que has aprendido hasta ahora.
+
+// Para este proyecto, sus desafíos son:
+
+// Utilice Interface Builder para seleccionar la etiqueta de texto dentro de su 
+// celda de vista de tabla y ajustar su tamaño de fuente a algo más grande:
+// experimente y vea qué se ve bien.
+
+// En la vista de la tabla principal, muestre los nombres de las imágenes en
+// orden ordenado, por lo que "nssl0033.jpg" viene antes que "nssl0034.jpg".
+
+// En lugar de mostrar los nombres de las imágenes en la barra de título de
+// detalles, muestre "Imagen X de Y", donde Y es el número total de imágenes
+// y X es la posición de la imagen seleccionada en la matriz. Asegúrate de
+// contar desde 1 en lugar de 0.
+
+
+// Utilice Interface Builder para seleccionar la etiqueta de texto dentro de 
+// su celda de la tabla y ajustar su tamaño de fuente a algo más grande:
+// experimente y vea qué se ve bien.
+
+// En la vista de la tabla principal, muestre los nombres de las imágenes en
+// orden, por lo que "nssl0033.jpg" viene antes que "nssl0034.jpg".
+
+// En lugar de mostrar los nombres de las imágenes en la barra de título de
+// detalles, muestre "Imagen X de Y", donde Y es el número total de imágenes
+// y X es la posición de la imagen seleccionada en la matriz. Asegúrate de 
+// contar desde 1 en lugar de 0.
+
+// ******* Hints *******
+
+// Es vital para tu aprendizaje que pruebes los desafíos por encima de ti mismo,
+// y no solo por un puñado de minutos antes de darte por un por mismo.
+
+// Cada vez que intentas algo mal, aprendes que está mal y recordarás que está mal.
+// En el momento en que encuentres la solución correcta, la recordarás mucho más a
+// fondo, a la vez que recordarás muchos de los giros equivocados que tomaste.
+
+// Esto es lo que quiero decir con "no hay aprendizaje sin lucha": si algo te llega
+// fácilmente, puede ir con la misma facilidad. Pero cuando tienes que luchar
+// mentalmente por algo, se quedará mucho más tiempo.
+
+// Pero si ya has trabajado duro en los desafíos anteriores y todavía estás luchando
+// para implementarlos, voy a escribir algunas sugerencias a continuación que deberían
+// guiarte hacia la respuesta correcta.
+
+// Si me ignoras y lees estas pistas sin haber pasado al menos 30 minutos probando
+// los desafíos anteriores, la única persona a la que estás engañando eres tú mismo.
+
+// ¿Sigues aquí? Vale. Echemos un vistazo a los desafíos...
+
+// Utilice Interface Builder para seleccionar la etiqueta de texto dentro de su
+// celda de vista de tabla y ajustar su tamaño de fuente a algo más grande:
+// experimente y vea qué se ve bien.
+
+// Esto debería ser bastante fácil: abra Main.storyboard, luego use el contorno
+// del documento para seleccionar la vista de la tabla, seleccione la celda de
+// imagen dentro de ella, seleccione la vista de contenido dentro de ella y,
+// finalmente, seleccione la etiqueta Título. En el inspector de atributos
+// encontrarás una serie de opciones: intenta averiguar cuál controla el tamaño
+// de la fuente.
+
+// En la vista de la tabla principal, muestre los nombres de las imágenes en
+// orden ordenado, por lo que "nssl0033.jpg" viene antes que "nssl0034.jpg".
+
+// Estas imágenes pueden o no estar ordenadas para usted, pero su desafío aquí
+// es asegurarse de que siempre estén ordenadas. Hemos cubierto matrices de
+// clasificación anteriormente, y debes recordar que hay un método sort()
+// que puedes usar.
+
+// Sin embargo, la pregunta es: ¿dónde debería llamarse? Podrías llamar a este
+// método cada vez que añadas una imagen "nssl" a la matriz de imágenes, pero
+// eso solo causa trabajo adicional. ¿Dónde podrías hacer una llamada a sort()
+// para que se haga solo una vez, cuando se hayan cargado todas las imágenes?
+
+// En lugar de mostrar los nombres de las imágenes en la barra de título de
+// detalles, muestre "Imagen X de Y", donde Y es el número total de imágenes y
+// X es la posición de la imagen seleccionada en la matriz. Asegúrate de contar
+// desde 1 en lugar de 0.
+
+// En este proyecto aprendiste a crear propiedades como esta:
+
+var selectedImage: String?
+
+// También aprendiste a establecer esas propiedades desde otro lugar, como este
+
+vc.selectedImage = pictures[indexPath.row]
+
+// Este desafío requiere que hagas dos nuevas propiedades en DetailViewController:
+// una para contener la posición de la imagen en la matriz y otra para contener el
+// número de imágenes.
+
+// Por ejemplo, podrías añadir estas dos propiedades a DetailViewController:
+
+var selectedPictureNumber = 0
+var totalPictures = 0
+
+// A continuación, puede usarlos para el título en la barra de navegación mediante
+// la interpolación de cadenas. Recuerda, la interpolación de cadenas se ve así:
+
+title = "This image is \(selectedImage)"
+
+// ¿Cómo puedes usar eso con selectedPictureNumber y totalPictures?
+
+// Una vez hecho eso, tienes que pasar algunos valores para esas propiedades.
+// Creamos DetailViewController aquí:
+
+override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
+        vc.selectedImage = pictures[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+// Eso establece la propiedad selectedImage usando una de las cadenas de la matriz
+// de imágenes. ¿Qué cuerda? Bueno, usamos indexPath.row para eso, porque eso nos
+// dice qué celda de vista de tabla se seleccionó.
+
+// Por lo tanto, podemos usar indexPath.row para establecer la propiedad
+// selectedPictureNumber en DetailViewController, solo asegúrese de agregar
+// 1 para que cuente desde 1 en lugar de 0.
+
+// En cuanto a la propiedad totalPictures en DetailViewController, que debe contener
+// el número total de imágenes en nuestra matriz. Ya escribimos código para leer el
+// tamaño de la matriz dentro del método numberOfRowsInSection.
+// ¿Cómo se puede usar un código similar para establecer totalPictures?
+
+
+// ********* ¡Comparte tu éxito! *********
+
+// Uno de los motivadores más efectivos del éxito es compartir tu progreso con
+// otras personas: cuando le dices a la gente lo que estás haciendo y lo que has
+// aprendido, te anima a volver por más, lo que a su vez te ayudará a alcanzar
+// los objetivos de desarrollo de tu aplicación más rápido.
+
+// Por lo tanto, ahora que has hecho todo el trabajo duro, es hora de compartir
+// tu éxito: dile a la gente que has completado este proyecto, ya sea haciendo
+// clic en el botón de abajo para comenzar a componer un tuit, o escribiendo tu
+// propio mensaje desde cero. Esto definitivamente te animará a seguir aprendiendo,
+// pero también ayudará a otras personas a descubrir mi trabajo, ¡gracias!
+
+// URL de ejercicios:
+// https://www.hackingwithswift.com/review/hws/project-1-storm-viewer
+
+
+// Una vez que hayas terminado, dile a otras personas: has completado tu primer 
+// proyecto de iOS, has pasado la prueba e incluso la has ampliado
+// con tu propio código.
+
+// Deberías estar orgulloso de lo que has logrado, ¡buen trabajo!
